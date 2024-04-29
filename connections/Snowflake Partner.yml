@@ -3,3 +3,4 @@ label: Snowflake Partner
 object_type: connection
 as_connection: Snowflake Partner
 schema: AS_ADVENTURE
+database: SE_DEMO_LIBRARY
