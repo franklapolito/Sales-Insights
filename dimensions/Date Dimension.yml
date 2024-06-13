@@ -16,10 +16,8 @@ hierarchies:
     levels:
 
       - unique_name: YearMonth
-        time_unit: year
 
       - unique_name: Quarter
-        time_unit: quarter
 
         secondary_attributes:
 
@@ -33,7 +31,6 @@ hierarchies:
             sort_column: quarter_of_year
 
       - unique_name: Month1
-        time_unit: month
 
         secondary_attributes:
 
@@ -47,7 +44,6 @@ hierarchies:
             sort_column: month_of_year
 
       - unique_name: DayMonth
-        time_unit: day
 
         secondary_attributes:
 
@@ -129,10 +125,8 @@ hierarchies:
     levels:
 
       - unique_name: YearWeek
-        time_unit: year
 
       - unique_name: Week
-        time_unit: week
 
         secondary_attributes:
 
@@ -146,7 +140,6 @@ hierarchies:
             sort_column: week_of_year
 
       - unique_name: DayMonth
-        time_unit: day
 
   - unique_name: Retail445
     label: Retail445
@@ -157,10 +150,8 @@ hierarchies:
     levels:
 
       - unique_name: ReportIng_Year
-        time_unit: year
 
       - unique_name: ReportIng_Half_Year
-        time_unit: halfyear
 
         secondary_attributes:
 
@@ -174,7 +165,6 @@ hierarchies:
             sort_column: rpt_half_year_of_year_name
 
       - unique_name: ReportIng_Quarter
-        time_unit: quarter
 
         secondary_attributes:
 
@@ -188,7 +178,6 @@ hierarchies:
             sort_column: rpt_quarter_of_year_name
 
       - unique_name: ReportIng_Month
-        time_unit: month
 
         secondary_attributes:
 
@@ -220,7 +209,6 @@ hierarchies:
             sort_column: rpt_month_of_year_name
 
       - unique_name: ReportIng_Week
-        time_unit: week
 
         secondary_attributes:
 
@@ -243,7 +231,6 @@ hierarchies:
             sort_column: rpt_week_of_year_name
 
       - unique_name: Reporting_Day
-        time_unit: day
 
         secondary_attributes:
 
@@ -288,10 +275,8 @@ hierarchies:
     levels:
 
       - unique_name: customyear
-        time_unit: year
 
       - unique_name: customquarter
-        time_unit: quarter
         parallel_periods:
           - level: customyear
             key_columns:
@@ -310,7 +295,6 @@ hierarchies:
             sort_column: rpt_quarter_of_year_name
 
       - unique_name: custommonth
-        time_unit: month
         parallel_periods:
           - level: customyear
             key_columns:
@@ -347,7 +331,6 @@ hierarchies:
             sort_column: rpt_month_of_year_name
 
       - unique_name: customweek
-        time_unit: week
         parallel_periods:
           - level: customyear
             key_columns:
@@ -375,7 +358,6 @@ hierarchies:
             sort_column: rpt_week_of_year_name
 
       - unique_name: customday
-        time_unit: day
         parallel_periods:
           - level: customyear
             key_columns:
