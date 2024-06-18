@@ -11,9 +11,9 @@ columns:
     dialects:
       - dialect: Snowflake
         sql: '"salesamount"*0.085'
-      - dialect: BiqQuery
+      - dialect: BigQuery
         sql: '"salesamount"*0.085'
-      - dialect: Databricks
+      - dialect: DatabricksSQL
         sql: '"salesamount"*0.085'
   - name: currencykey
     data_type: int
