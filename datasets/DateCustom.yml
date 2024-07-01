@@ -1,32 +1,29 @@
 unique_name: DateCustom
 object_type: dataset
 label: DateCustom
-connection_id: Snowflake Partner
-table: datecustom
-
 columns:
   - name: date_name
     data_type: string
   - name: datekey
-    data_type: long
+    data_type: decimal(38,0)
   - name: day_of_half_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: day_of_half_year_name
     data_type: string
   - name: day_of_month
-    data_type: long
+    data_type: decimal(38,0)
   - name: day_of_month_name
     data_type: string
   - name: day_of_quarter
-    data_type: long
+    data_type: decimal(38,0)
   - name: day_of_quarter_name
     data_type: string
   - name: day_of_week
-    data_type: long
+    data_type: decimal(38,0)
   - name: day_of_week_name
     data_type: string
   - name: day_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: day_of_year_name
     data_type: string
   - name: half_year
@@ -34,7 +31,7 @@ columns:
   - name: half_year_name
     data_type: string
   - name: half_year_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: half_year_of_year_name
     data_type: string
   - name: iso_8601_day
@@ -42,11 +39,11 @@ columns:
   - name: iso_8601_day_name
     data_type: string
   - name: iso_8601_day_of_week
-    data_type: long
+    data_type: decimal(38,0)
   - name: iso_8601_day_of_week_name
     data_type: string
   - name: iso_8601_day_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: iso_8601_day_of_year_name
     data_type: string
   - name: iso_8601_week
@@ -54,7 +51,7 @@ columns:
   - name: iso_8601_week_name
     data_type: string
   - name: iso_8601_week_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: iso_8601_wk_yr_nm_rpt_dy_ctl
     data_type: string
   - name: iso_8601_year
@@ -66,15 +63,15 @@ columns:
   - name: month_name
     data_type: string
   - name: month_of_half_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: month_of_half_year_name
     data_type: string
   - name: month_of_quarter
-    data_type: long
+    data_type: decimal(38,0)
   - name: month_of_quarter_name
     data_type: string
   - name: month_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: month_of_year_name
     data_type: string
   - name: pk_date
@@ -84,11 +81,11 @@ columns:
   - name: quarter_name
     data_type: string
   - name: quarter_of_half_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: quarter_of_half_year_name
     data_type: string
   - name: quarter_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: quarter_of_year_name
     data_type: string
   - name: rpt_day
@@ -98,23 +95,23 @@ columns:
   - name: rpt_day_name
     data_type: string
   - name: rpt_day_of_half_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_day_of_half_year_name
     data_type: string
   - name: rpt_day_of_month
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_day_of_month_name
     data_type: string
   - name: rpt_day_of_quarter
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_day_of_quarter_name
     data_type: string
   - name: rpt_day_of_week
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_day_of_week_name
     data_type: string
   - name: rpt_day_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_day_of_year_name
     data_type: string
   - name: rpt_half_year
@@ -124,7 +121,7 @@ columns:
   - name: rpt_half_year_name
     data_type: string
   - name: rpt_half_year_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_half_year_of_year_name
     data_type: string
   - name: rpt_month
@@ -136,15 +133,15 @@ columns:
   - name: rpt_month_name2
     data_type: string
   - name: rpt_month_of_half_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_month_of_half_year_name
     data_type: string
   - name: rpt_month_of_quarter
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_month_of_quarter_name
     data_type: string
   - name: rpt_month_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_month_of_year_name
     data_type: string
   - name: rpt_quarter
@@ -154,11 +151,11 @@ columns:
   - name: rpt_quarter_name
     data_type: string
   - name: rpt_quarter_of_half_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_quarter_of_half_year_name
     data_type: string
   - name: rpt_quarter_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_quarter_of_year_name
     data_type: string
   - name: rpt_week
@@ -170,19 +167,19 @@ columns:
   - name: rpt_week_name
     data_type: string
   - name: rpt_week_of_half_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_week_of_half_year_name
     data_type: string
   - name: rpt_week_of_month
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_week_of_month_name
     data_type: string
   - name: rpt_week_of_quarter
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_week_of_quarter_name
     data_type: string
   - name: rpt_week_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: rpt_week_of_year_name
     data_type: string
   - name: rpt_year
@@ -196,10 +193,12 @@ columns:
   - name: week_name
     data_type: string
   - name: week_of_year
-    data_type: long
+    data_type: decimal(38,0)
   - name: week_of_year_name
     data_type: string
   - name: year
     data_type: datetime
   - name: year_name
     data_type: string
+connection_id: Snowflake Partner
+table: DATECUSTOM
