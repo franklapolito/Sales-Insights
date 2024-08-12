@@ -1,8 +1,8 @@
-unique_name: Test Model
+unique_name: TEST MODEL
 object_type: model
-label: Test Model
+label: TEST MODEL
 metrics:
-  - unique_name: m_FACTINTERNETSALES_salesamount_avg
+  - unique_name: Avg Sales Amt
 relationships:
   - unique_name: FACTINTERNETSALES_customerkey_to_Customer_Customer Level
     from:
